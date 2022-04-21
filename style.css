@@ -1,0 +1,181 @@
+body {
+    background-color: black;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0% auto;
+}
+
+.nav {
+    height: 40px;
+    width: 100px;
+    /* background-color:rgb(0, 0, 0); */
+}
+
+.logo {
+    margin: -20px 0px 0px 0px;
+    width: 200px;
+    height: 80px;
+}
+
+.mid {
+    height: 40px;
+    width: 750px;
+    margin: 0px 0px 0px 250px;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.mid>ul {
+    list-style-type: none;
+}
+
+.mid>ul>li {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 45px;
+    display: inline;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.mid>ul>li>a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mid>ul>li>a:hover {
+    color: gold;
+}
+
+.right {
+    height: 40px;
+    width: 200px;
+    /* background-color:rgb(0, 0, 0); */
+}
+
+.Icons {
+    padding: 0px 10px 0px 0px;
+    margin: 15px 0px 0px 5px;
+    height: 20px;
+    width: 20px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+
+.Icons:hover {
+    color: rgb(251, 255, 34);
+    padding: 0px 10px 0px 0px;
+    margin: 15px 0px 0px 5px;
+    height: 20px;
+    width: 20px;
+
+}
+
+#body {
+    background-color: rgb(0, 0, 0);
+    flex: 15;
+    display: flex;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+
+#body_2 {
+    background-color: rgb(0, 0, 0);
+    flex: 10;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#body_2>img {
+    width: 80%;
+    height: 20%
+}
+
+.body2_child {
+    height: 450px;
+    width: 580px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px 10px 10px 10px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.body2_child_2 {
+    height: 170px;
+    width: 1100px;
+    background-color: rgb(232, 255, 23);
+    display: flex;
+}
+
+.body2_child_4 {
+    margin: 40px 0px 40px 0px;
+    padding: 30px 0px 30px 0px;
+    background-color: aqua;
+}
+
+.body2_child_4btn {
+    margin: 42px 50px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 240px;
+    font-size: 20px;
+    color: yellow;
+    border-radius: 20px;
+}
+
+.body2_child_4btn:hover {
+    margin: 42px 50px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 240px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fourApesText23 {
+    width: 250px;
+    margin: 70px 0px 0px 40px;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(2, 2, 2);
+}
+
+.fourApesText3 {
+    margin: 65px 0px 0px 10px;
+    padding: 0px 120px 0px 100px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.fourApes {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
+}
+
+
+.thirtyApes {
+    margin: 200px 0px 0px 0px;
+}
+
+
+.mysteryApe {
+    margin: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
+    height: 400px;
+    width: 400px;
+}
